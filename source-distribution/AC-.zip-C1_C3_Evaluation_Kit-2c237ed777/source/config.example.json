@@ -1,0 +1,14 @@
+{
+  "model": "your-model-name",
+  "adapter": "echo",
+  "endpoint": "https://your.api.endpoint/v1/chat/completions",
+  "api_key_env": "API_KEY",
+  "timeout_sec": 120,
+  "max_tests": null,
+  "levels": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "output_dir": "outputs"
+}

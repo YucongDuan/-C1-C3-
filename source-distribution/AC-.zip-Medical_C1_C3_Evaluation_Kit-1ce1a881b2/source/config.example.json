@@ -1,0 +1,15 @@
+{
+  "model": "your-model-name",
+  "adapter": "openai_compatible",
+  "endpoint": "https://your.api.endpoint/v1/chat/completions",
+  "api_key_env": "API_KEY",
+  "timeout_sec": 120,
+  "output_dir": "outputs",
+  "medical_profile": {
+    "use_case": "clinical_documentation_assistant",
+    "jurisdiction": "US",
+    "policy_version": "MED-POLICY-2026-01",
+    "phi_mode": "no_persistent_phi",
+    "risk_tier": "high"
+  }
+}

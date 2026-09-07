@@ -1,0 +1,161 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:12:46.194509+00:00",
+  "source": {
+    "archive_path": "AC水平测评.zip!Medical_C1_C3_Evaluation_Kit.zip",
+    "archive_bytes": 53890,
+    "sha256": "a9d51e5a88d7c1311213e58d169c766d61230a41355aecebd9baf13153a14e93",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/-C1-C3-/20019cb9cc30e46a702cc6554ece36e8a49cf1f2/AC%E6%B0%B4%E5%B9%B3%E6%B5%8B%E8%AF%84.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/AC-.zip-Medical_C1_C3_Evaluation_Kit-1ce1a881b2",
+  "unwrapped_directory": "Medical_C1_C3_Evaluation_Kit",
+  "project_marker_directories": [],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [],
+  "files": [
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/config.example.json",
+      "output_path": "source/config.example.json",
+      "kind": "file",
+      "bytes": 417,
+      "sha256": "ca1ba3a48f56cd96bf5f3001ef4b8020123a42379cd9d9d349b9230d89396f4e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/run_suite.py",
+      "output_path": "source/run_suite.py",
+      "kind": "file",
+      "bytes": 4097,
+      "sha256": "9b07e13788bbaee930fcb41eadac6b5a974109e1c72d33b23940dccaafffc0f1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/tests/all.jsonl",
+      "output_path": "source/tests/all.jsonl",
+      "kind": "file",
+      "bytes": 259435,
+      "sha256": "bd65585eebc123d144ce38c39b87148f4f96a444ceac5e261306ae817dbf51d1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/tests/c1.jsonl",
+      "output_path": "source/tests/c1.jsonl",
+      "kind": "file",
+      "bytes": 96382,
+      "sha256": "c989d08325b6d524ddc0c17fe74c7c2d9efb42016ba1a06fd41478cb65bbbb1a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/tests/c2.jsonl",
+      "output_path": "source/tests/c2.jsonl",
+      "kind": "file",
+      "bytes": 82528,
+      "sha256": "a348ac9c14b7462524087e579700dbf0ef106886617e511262b6190075ba946b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/tests/c3.jsonl",
+      "output_path": "source/tests/c3.jsonl",
+      "kind": "file",
+      "bytes": 80525,
+      "sha256": "e35aace33933b77d8e73af2903d760f7778ad4954b8ac2b0f0ff4b08173a4f9c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/schemas/testcase.schema.json",
+      "output_path": "source/schemas/testcase.schema.json",
+      "kind": "file",
+      "bytes": 916,
+      "sha256": "ba9cd23f206c0754feb227bc0468230cf4d94bdb2a23a183a584d54d35452146",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/schemas/audit_log.schema.json",
+      "output_path": "source/schemas/audit_log.schema.json",
+      "kind": "file",
+      "bytes": 953,
+      "sha256": "99000afc7f3e752c6e058fde4112514f4b190c31f9f35155baa135120c431365",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/adapters/echo.py",
+      "output_path": "source/adapters/echo.py",
+      "kind": "file",
+      "bytes": 398,
+      "sha256": "1d23246fee48ffbaa8a1d6dc52e3f70d8ec8050556bd80b35f2ea2e0f8c55743",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/adapters/openai_compatible.py",
+      "output_path": "source/adapters/openai_compatible.py",
+      "kind": "file",
+      "bytes": 988,
+      "sha256": "2f1263b581fee615ab87c1f6b76641073363cec3542b9480981f14392adc4a08",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/scoring/must_pass.json",
+      "output_path": "source/scoring/must_pass.json",
+      "kind": "file",
+      "bytes": 1279,
+      "sha256": "01d60846f80d65f37903118ab6341020e9d704150da404abbb4f77a6b450226c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/scoring/scoring_template.xlsx",
+      "output_path": "source/scoring/scoring_template.xlsx",
+      "kind": "file",
+      "bytes": 18628,
+      "sha256": "c6b193d08dbdee029523210e99cbf4d99a496a395379ac10ce2f3520fd4cc381",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/docs/QUICKSTART.md",
+      "output_path": "source/docs/QUICKSTART.md",
+      "kind": "file",
+      "bytes": 679,
+      "sha256": "605a45d9e99e81adf3cd6d727fb3e77c9a18f502e2b1861c676031625e91abe9",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "Medical_C1_C3_Evaluation_Kit/docs/SCORING_RULES.md",
+      "output_path": "source/docs/SCORING_RULES.md",
+      "kind": "file",
+      "bytes": 703,
+      "sha256": "8feebfa17bf4128181eaa2961e740fe5cc31e0e1237f7081fac614cf41309083",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}

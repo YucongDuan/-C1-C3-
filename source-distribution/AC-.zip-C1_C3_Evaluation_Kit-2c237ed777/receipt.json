@@ -1,0 +1,145 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:12:46.032867+00:00",
+  "source": {
+    "archive_path": "AC水平测评.zip!C1_C3_Evaluation_Kit.zip",
+    "archive_bytes": 37163,
+    "sha256": "09afd3dbca4e94bdc6c4629b70f9f6b4f2ab998c29a44c03f717069ebb9a2708",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/-C1-C3-/20019cb9cc30e46a702cc6554ece36e8a49cf1f2/AC%E6%B0%B4%E5%B9%B3%E6%B5%8B%E8%AF%84.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/AC-.zip-C1_C3_Evaluation_Kit-2c237ed777",
+  "unwrapped_directory": "C1_C3_Evaluation_Kit",
+  "project_marker_directories": [
+    "."
+  ],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [],
+  "files": [
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/config.example.json",
+      "output_path": "source/config.example.json",
+      "kind": "file",
+      "bytes": 262,
+      "sha256": "b520b0663fdef675df40cd7ca1031b63064c7366461a0a9b476f4b9565af8b7b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/run_suite.py",
+      "output_path": "source/run_suite.py",
+      "kind": "file",
+      "bytes": 4203,
+      "sha256": "2672ed84f5337adc71d63b6419de32b607c3e8a0c7f726dd989f7078a69fa23e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/README.md",
+      "output_path": "source/README.md",
+      "kind": "file",
+      "bytes": 1337,
+      "sha256": "75b485b51f9dee34c2e8870d4fd9cf5c899367b1315437eb2367b67348bc0bc5",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/tests/c1.jsonl",
+      "output_path": "source/tests/c1.jsonl",
+      "kind": "file",
+      "bytes": 60256,
+      "sha256": "ca835adc6e5fbe5b842783e6a0577efced2dfc17dcda7b12fbb8b1bcc0b2837f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/tests/c2.jsonl",
+      "output_path": "source/tests/c2.jsonl",
+      "kind": "file",
+      "bytes": 50928,
+      "sha256": "efacba44f1163824523d46d61101dad396bb912636671632491fe65968213472",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/tests/c3.jsonl",
+      "output_path": "source/tests/c3.jsonl",
+      "kind": "file",
+      "bytes": 51296,
+      "sha256": "8e80892778cbd493453ab7c74e6825137ff13898148f54fbd42e763d4d3c8f81",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/tests/all.jsonl",
+      "output_path": "source/tests/all.jsonl",
+      "kind": "file",
+      "bytes": 162480,
+      "sha256": "68eb1152b03e7b54d192cf1c4fc98ba8a66c7dfa361104692bed2c64f9193ecd",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/schemas/testcase.schema.json",
+      "output_path": "source/schemas/testcase.schema.json",
+      "kind": "file",
+      "bytes": 814,
+      "sha256": "a4fe83bda5e186e41a470f8c73c0cc8340da66db13e1424f7db69118f4f8fd96",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/schemas/audit_log.schema.json",
+      "output_path": "source/schemas/audit_log.schema.json",
+      "kind": "file",
+      "bytes": 646,
+      "sha256": "8d2892ac95dbe6c1202ee3de4bd694e6b60db47764789192bc67a66419ef0787",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/adapters/echo.py",
+      "output_path": "source/adapters/echo.py",
+      "kind": "file",
+      "bytes": 491,
+      "sha256": "99eda5b29e0131a1e6190b71eea42185a49675b84c35eaf93b30904b9aa2f76b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/adapters/openai_compatible.py",
+      "output_path": "source/adapters/openai_compatible.py",
+      "kind": "file",
+      "bytes": 1103,
+      "sha256": "26eadaeec7944ed5ceb9fd2497b30a948911049cfdef8f122e69da76bd190483",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "C1_C3_Evaluation_Kit/scoring/scoring_template.xlsx",
+      "output_path": "source/scoring/scoring_template.xlsx",
+      "kind": "file",
+      "bytes": 12278,
+      "sha256": "19ac244e1bafbe7755b1f8c3beacdebcfc5895968767f583467692741fadc7f7",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}
